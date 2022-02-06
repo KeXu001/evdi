@@ -11,7 +11,7 @@
  * more details.
  */
 
-#include <linux/version.h>
+#include "linux/version.h"
 #include <drm/drm_crtc.h>
 #include <drm/drm_edid.h>
 #include <drm/drm_crtc_helper.h>

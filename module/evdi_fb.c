@@ -16,7 +16,7 @@
 #include <linux/fb.h>
 #endif /* CONFIG_FB */
 #include <linux/dma-buf.h>
-#include <linux/version.h>
+#include "linux/version.h"
 #if KERNEL_VERSION(5, 5, 0) <= LINUX_VERSION_CODE || defined(EL8)
 #else
 #include <drm/drmP.h>

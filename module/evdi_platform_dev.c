@@ -17,7 +17,7 @@
  */
 
 #include "evdi_platform_dev.h"
-#include <linux/version.h>
+#include "linux/version.h"
 #include <linux/dma-mapping.h>
 #include <linux/platform_device.h>
 #include <linux/slab.h>

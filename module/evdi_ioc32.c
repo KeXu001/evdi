@@ -21,7 +21,7 @@
 
 #include <linux/compat.h>
 
-#include <linux/version.h>
+#include "linux/version.h"
 #if KERNEL_VERSION(5, 16, 0) <= LINUX_VERSION_CODE
 #include <drm/drm_ioctl.h>
 #elif KERNEL_VERSION(5, 5, 0) <= LINUX_VERSION_CODE || defined(EL8)

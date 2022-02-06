@@ -14,7 +14,7 @@
 #define EVDI_DRV_H
 
 #include <linux/module.h>
-#include <linux/version.h>
+#include "linux/version.h"
 #include <linux/mutex.h>
 #include <linux/device.h>
 #if KERNEL_VERSION(5, 5, 0) <= LINUX_VERSION_CODE || defined(EL8)
